@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator by Paavan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="card">
+        <h2>Calculate EMI</h2>
+        <h3>Principal Amount:</h3>
+        <input type="number" id="principal" class="input" placeholder="Enter Principal Amount (in Rs)">
+        <h3>Loan term :</h3>
+        <input type="number" id="years" class="input" placeholder="Enter loan term (in years)">
+        <h3>Interest Rate:</h3>
+        <input type="number" id="rate" class="input" placeholder="Enter Interest Rate (in %)">
+        <button class="btn" onclick="Cal()">Calculate</button>
+
+        <h3 id="result"></h3>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
